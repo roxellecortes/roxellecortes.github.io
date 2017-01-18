@@ -1,0 +1,108 @@
+body {
+	color: #3b3a36;
+	background-color: #e9ece5;
+	font-family: Century Gothic;
+	font-size: 12px;
+	}
+header {
+	color: #3b3a36;
+	font-family: Century Gothic;
+	font-size: 60px;
+	letter-spacing: 10px;
+	margin: 0px 5px 10px 5px;
+	text-align: center;
+	}
+nav {
+	background-color: #c0dfd9;
+	padding: 20px;
+	text-align: center;
+	}
+nav a {
+	color: #3b3a36;
+	font-family: Century Gothic;
+	letter-spacing: 2px;
+	margin: 5%;
+	padding: 10px 5px 10px 5px;
+	text-decoration: none;
+	}
+nav a:hover {
+	background-color: #3b3a36;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	}
+/*DROPDOWN MENU*/
+.dropbtn {
+	background-color: #c0dfd9;
+    border: none;
+	color: #3b3a36;
+    cursor: pointer;
+	font-family: Century Gothic;
+	letter-spacing: 2px;
+	}
+.dropdown {
+    position: relative;
+    display: inline-block;
+	}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+	}
+.dropdown-content a {
+    color: #3b3a36;
+	display: block;
+    padding: 5px;
+    text-decoration: none;
+	
+	}
+.dropdown:hover .dropdown-content {
+    display: block;
+	z-index: 1;
+	}
+.dropdown:hover .dropbtn {
+    background-color: #3b3a36;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	}
+/* END OF DROPDOWN MENU */
+.leftarticle {
+	background-color: #b3c2bf;
+	float: left;
+	text-align: left;
+	width: 70%;
+	}
+.rightarticle {
+	background-color: white;
+	float: right;
+	width: 30%;
+	}
+.rightarticle h3 {
+	margin: 5%;
+	}
+.rightarticle p {
+	margin: 0% 5% 5% 5%;
+	text-indent: 5%;
+	}
+table {
+	padding: 5px;
+	width: 100%;
+	}
+tr th {
+	background-color: #3b3a36;
+	color: white;
+	font-size: 30px;
+	font-family: Century Gothic;
+	padding: 5px;
+	text-align: center;
+	}
+table tr td img {
+	width: 100%;
+	}
+footer {
+	clear: both;
+	color: #3b3a36;
+	}
